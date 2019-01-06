@@ -1,0 +1,269 @@
+﻿Log file open, 12/27/18 16:25:14
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: goap_framework
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 2.888083
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Warning: Plugin 'BTUtilityPlugin' is not compatible with the current engine version (4.20.0)
+LogInit: Initializing SDL.
+LogInit: Initialized SDL 2.0.8 revision: 11184 (hg-12121:4358e537000a with EpicExtensions) (compiled against 2.0.8)
+LogInit: Using SDL video driver 'x11'
+LogInit: Display metrics:
+LogInit:   PrimaryDisplayWidth: 1366
+LogInit:   PrimaryDisplayHeight: 768
+LogInit:   PrimaryDisplayWorkAreaRect:
+LogInit:     Left=0, Top=24, Right=1366, Bottom=768
+LogInit:   VirtualDisplayRect:
+LogInit:     Left=0, Top=24, Right=1366, Bottom=768
+LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+LogInit:   Number of monitors: 1
+LogInit:     Monitor 0
+LogInit:       Name: LCD1971w 19"
+LogInit:       ID: display0
+LogInit:       NativeWidth: 1366
+LogInit:       NativeHeight: 768
+LogInit:       bIsPrimary: true
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin BTUtilityPlugin
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin Paper2D
+LogStreaming: Display: Took 39.438s to configure plugins.
+LogInit: Warning: Incompatible or missing module: goap_framework
+Running /home/garren/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Linux -Project="/media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/goap_framework.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+
+Running Mono...
+
+Fixing inconsistent case in filenames.
+Setting up Mono
+~/UnrealEngine/Engine ~/UnrealEngine/Engine/Binaries/Linux
+Using 'git status' to determine working set for adaptive non-unity build (/home/garren/UnrealEngine).
+Creating makefile for goap_frameworkEditor (no existing makefile)
+Performing full C++ include scan (no include cache file)
+@progress push 5%
+Building UnrealHeaderTool...
+Using 'git status' to determine working set for adaptive non-unity build (/home/garren/UnrealEngine).
+Creating makefile for UnrealHeaderTool (no existing makefile)
+------- Build details --------
+Using toolchain located at '/home/garren/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu'.
+Using clang (/home/garren/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++) version '6.0.1' (string), 6 (major), 0 (minor), 1 (patch)
+Using bundled libc++ standard C++ library.
+Using lld linker
+Using llvm-ar : /home/garren/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu/bin/llvm-ar
+Using fast way to relink  circularly dependent libraries (no FixDeps).
+------------------------------
+Target is up to date
+Total build time: 15.63 seconds (NoActionsToExecute executor: 0.00 seconds)
+Parsing headers for goap_frameworkEditor
+  Running UnrealHeaderTool "/media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/goap_framework.uproject" "/media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/Intermediate/Build/Linux/B4D820EA/goap_frameworkEditor/Development/goap_frameworkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
+Reflection code generated for goap_frameworkEditor in 25.2141768 seconds
+@progress pop
+------- Build details --------
+Using toolchain located at '/home/garren/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu'.
+Using clang (/home/garren/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++) version '6.0.1' (string), 6 (major), 0 (minor), 1 (patch)
+Using bundled libc++ standard C++ library.
+Using lld linker
+Using llvm-ar : /home/garren/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu/bin/llvm-ar
+Using fast way to relink  circularly dependent libraries (no FixDeps).
+------------------------------
+Performing 23 actions (2 in parallel)
+[1/23] Compile goap_framework.cpp
+[2/23] Compile goap_frameworkCharacter.cpp
+[3/23] Compile CheckGoal.cpp
+[4/23] Compile AdjustUtilities.cpp
+[5/23] Compile GOAPController.cpp
+[6/23] Compile GOAPCharacter.cpp
+[1m/media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/Source/goap_framework/AI/GOAPFramework/GOAPController.cpp:74:27: [0m[0;1;31merror: [0m[1millegal character encoding in string literal[0m
+                BehaviorComp->StopLogic(TEXT("Esta inst[0m[7m<E2>[0mncia de GOAPCharacter n[0m[7m<E3>[0mo possui mais um controlador"));
+[0;1;32m                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1m/home/garren/UnrealEngine/Engine/Source/Runtime/Core/Public/HAL/Platform.h:899:19: [0m[0;1;30mnote: [0mexpanded from macro 'TEXT'[0m
+                #define TEXT(x) TEXT_PASTE(x)
+[0;1;32m                                ^~~~~~~~~~~~
+[0m[1m/home/garren/UnrealEngine/Engine/Source/Runtime/Core/Public/HAL/Platform.h:895:25: [0m[0;1;30mnote: [0mexpanded from macro 'TEXT_PASTE'[0m
+                #define TEXT_PASTE(x) u ## x
+[0;1;32m                                      ^~~~~
+[0m[1m<scratch space>:32:12: [0m[0;1;30mnote: [0mexpanded from here[0m
+u"Esta inst[0m[7m<E2>[0mncia de GOAPCharacter n[0m[7m<E3>[0mo possui mais um controlador"
+[0;1;32m           ^~~~                       ~~~~
+[0m[1m/media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/Source/goap_framework/AI/GOAPFramework/GOAPController.cpp:195:64: [0m[0;1;35mwarning: [0m[1mdeclaration shadows a field of 'AGOAPController' [-Wshadow][0m
+void AGOAPController::GetActualWorldstate(GOAP::worldstate_t * ActualWorldState)
+[0;1;32m                                                               ^
+[0m[1m/media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/Source/goap_framework/AI/GOAPFramework/GOAPController.h:27:21: [0m[0;1;30mnote: [0mprevious declaration is here[0m
+        GOAP::worldstate_t ActualWorldState;                            //Atual estado dos [0m[7m<E1>[0mtomos envolvidos
+[0;1;32m                           ^
+[0m1 warning and 1 error generated.
+[7/23] Compile GOAP.cpp
+[8/23] Compile AStar.cpp
+In file included from /media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/Source/goap_framework/AI/GOAPFramework/GOAP.cpp:14:
+In file included from /media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/Source/goap_framework/AI/GOAPFramework/AStar.h:19:
+[1mThirdParty/Linux/LibCxx/include/c++/v1/cstdio:118:9: [0m[0;1;31merror: [0m[1mno member named '_snprintf' in the global namespace[0m
+using ::snprintf;
+[0;1;32m      ~~^
+[0m[1m/media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/Source/goap_framework/AI/GOAPFramework/GOAP.cpp:9:18: [0m[0;1;30mnote: [0mexpanded from macro 'snprintf'[0m
+#define snprintf _snprintf
+[0;1;32m                 ^
+[0m[1m/media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/Source/goap_framework/AI/GOAPFramework/GOAP.cpp:141:12: [0m[0;1;31merror: [0m[1muse of undeclared identifier '_snprintf'; did you mean 'vsnprintf'?[0m
+                        added = snprintf(buf, sz, "%s,", set ? upval : val);
+[0;1;32m                                ^~~~~~~~
+[0m[0;32m                                vsnprintf
+[0m[1m/media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/Source/goap_framework/AI/GOAPFramework/GOAP.cpp:9:18: [0m[0;1;30mnote: [0mexpanded from macro 'snprintf'[0m
+#define snprintf _snprintf
+[0;1;32m                 ^
+[0m[1m/home/garren/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu/usr/include/stdio.h:390:12: [0m[0;1;30mnote: [0m'vsnprintf' declared here[0m
+extern int vsnprintf (char *__restrict __s, size_t __maxlen,
+[0;1;32m           ^
+[0m[1m/media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/Source/goap_framework/AI/GOAPFramework/GOAP.cpp:141:37: [0m[0;1;31merror: [0m[1mcannot initialize a parameter of type '__va_list_tag *' with an rvalue of type 'const char *'[0m
+                        added = snprintf(buf, sz, "%s,", set ? upval : val);
+[0;1;32m                                                         ^~~~~~~~~~~~~~~~~
+[0m[1m/home/garren/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu/usr/include/stdio.h:391:53: [0m[0;1;30mnote: [0mpassing argument to parameter '__arg' here[0m
+                      const char *__restrict __format, _G_va_list __arg)
+[0;1;32m                                                                  ^
+[0m[1m/media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/Source/goap_framework/AI/GOAPFramework/GOAP.cpp:153:11: [0m[0;1;31merror: [0m[1muse of undeclared identifier '_snprintf'; did you mean 'vsnprintf'?[0m
+                added = snprintf(buf, sz, "%s:\n", ap->act_names[a]);
+[0;1;32m                        ^~~~~~~~
+[0m[0;32m                        vsnprintf
+[0m[1m/media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/Source/goap_framework/AI/GOAPFramework/GOAP.cpp:9:18: [0m[0;1;30mnote: [0mexpanded from macro 'snprintf'[0m
+#define snprintf _snprintf
+[0;1;32m                 ^
+[0m[1m/home/garren/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu/usr/include/stdio.h:390:12: [0m[0;1;30mnote: [0m'vsnprintf' declared here[0m
+extern int vsnprintf (char *__restrict __s, size_t __maxlen,
+[0;1;32m           ^
+[0m[1m/media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/Source/goap_framework/AI/GOAPFramework/GOAP.cpp:153:38: [0m[0;1;31merror: [0m[1mcannot initialize a parameter of type '__va_list_tag *' with an lvalue of type 'const char *'[0m
+                added = snprintf(buf, sz, "%s:\n", ap->act_names[a]);
+[0;1;32m                                                   ^~~~~~~~~~~~~~~~
+[0m[1m/home/garren/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu/usr/include/stdio.h:391:53: [0m[0;1;30mnote: [0mpassing argument to parameter '__arg' here[0m
+                      const char *__restrict __format, _G_va_list __arg)
+[0;1;32m                                                                  ^
+[0m[1m/media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/Source/goap_framework/AI/GOAPFramework/GOAP.cpp:162:13: [0m[0;1;31merror: [0m[1muse of undeclared identifier '_snprintf'[0m
+                                added = snprintf(buf, sz, "  %s==%d\n", ap->atm_names[i], v);
+[0;1;32m                                        ^
+[0m[1m/media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/Source/goap_framework/AI/GOAPFramework/GOAP.cpp:9:18: [0m[0;1;30mnote: [0mexpanded from macro 'snprintf'[0m
+#define snprintf _snprintf
+[0;1;32m                 ^
+[0m[1m/media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/Source/goap_framework/AI/GOAPFramework/GOAP.cpp:169:13: [0m[0;1;31merror: [0m[1muse of undeclared identifier '_snprintf'[0m
+                                added = snprintf(buf, sz, "  %s:=%d\n", ap->atm_names[i], v);
+[0;1;32m                                        ^
+[0m[1m/media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/Source/goap_framework/AI/GOAPFramework/GOAP.cpp:9:18: [0m[0;1;30mnote: [0mexpanded from macro 'snprintf'[0m
+#define snprintf _snprintf
+[0;1;32m                 ^
+[0m7 errors generated.
+[9/23] Compile Mannequin.cpp
+[10/23] Compile test.cpp
+[11/23] Compile goap_frameworkGameMode.cpp
+[12/23] Compile RunPlanner.cpp
+[13/23] Compile test.gen.cpp
+[14/23] Compile AdjustUtilities.gen.cpp
+[15/23] Compile CheckGoal.gen.cpp
+[16/23] Compile GOAPCharacter.gen.cpp
+[17/23] Compile GOAPController.gen.cpp
+[18/23] Compile Mannequin.gen.cpp
+[19/23] Compile RunPlanner.gen.cpp
+[20/23] Compile goap_framework.init.gen.cpp
+[21/23] Compile goap_frameworkCharacter.gen.cpp
+[22/23] Compile goap_frameworkGameMode.gen.cpp
+ERROR: UBT ERROR: Failed to produce item: /media/garren/Win7/Users/Garren/My Documents/Unreal Projects/goap_framework/Binaries/Linux/libUE4Editor-goap_framework.so
+       (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+Total build time: 363.54 seconds (Local executor: 0.00 seconds)
+LogInit: Warning: Still incompatible or missing module: goap_framework
+LogExit: Preparing to exit.
+LogModuleManager: Shutting down and abandoning module DesktopPlatform (36)
+LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+LogModuleManager: Shutting down and abandoning module Landscape (24)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+LogModuleManager: Shutting down and abandoning module Renderer (16)
+LogModuleManager: Shutting down and abandoning module Engine (14)
+LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+LogModuleManager: Shutting down and abandoning module PakFile (2)
+LogExit: Exiting.
+LogInit: Tearing down SDL.
+Log file closed, 12/27/18 16:32:12

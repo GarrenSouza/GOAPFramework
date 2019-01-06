@@ -1,0 +1,855 @@
+﻿Log file open, 01/05/19 12:03:01
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: goap_framework
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-179799475) SRandInit(-179799448).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.144720
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin BTUtilityPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Binaries/Win64/UE4Editor-goap_framework.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/BTUtilityPlugin/Binaries/Win64/UE4Editor-BTUtilityPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.05-14.03.03:431][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.05-14.03.03:431][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.05-14.03.03:458][  0]LogInit: Computer: CALC-MACHINE
+[2019.01.05-14.03.03:458][  0]LogInit: User: garren
+[2019.01.05-14.03.03:458][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.01.05-14.03.03:458][  0]LogInit: High frequency timer resolution =25.000000 MHz
+[2019.01.05-14.03.03:458][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2019.01.05-14.03.03:458][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.05-14.03.03:458][  0]LogMemory: Process Physical Memory: 272.23 MB used, 272.23 MB peak
+[2019.01.05-14.03.03:458][  0]LogMemory: Process Virtual Memory: 272.89 MB used, 272.89 MB peak
+[2019.01.05-14.03.03:458][  0]LogMemory: Physical Memory: 2976.37 MB used,  4958.93 MB free, 7935.30 MB total
+[2019.01.05-14.03.03:458][  0]LogMemory: Virtual Memory: 622.28 MB used,  4958.93 MB free, 8388608.00 MB total
+[2019.01.05-14.03.03:706][  0]LogInit: Using OS detected language (en-US).
+[2019.01.05-14.03.03:706][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.05-14.03.03:710][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.05-14.03.04:345][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2019.01.05-14.03.04:345][  0]LogWindows: File 'shcore.dll' does not exist
+[2019.01.05-14.03.04:345][  0]LogInit: Setting process to DPI aware
+[2019.01.05-14.03.04:352][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2019.01.05-14.03.04:352][  0]LogWindows: File 'shcore.dll' does not exist
+[2019.01.05-14.03.04:352][  0]LogInit: Setting process to DPI aware
+[2019.01.05-14.03.04:705][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.05-14.03.04:765][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.01.05-14.03.04:765][  0]LogD3D11RHI:       3998/0/3711 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.05-14.03.04:765][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.05-14.03.04:772][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.05-14.03.04:772][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.05-14.03.04:772][  0]LogWindows: EnumDisplayDevices:
+[2019.01.05-14.03.04:772][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2019.01.05-14.03.04:773][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.01.05-14.03.04:773][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.01.05-14.03.04:773][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.01.05-14.03.04:773][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2019.01.05-14.03.04:773][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2019.01.05-14.03.04:773][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2019.01.05-14.03.04:773][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.01.05-14.03.04:773][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.01.05-14.03.04:773][  0]LogD3D11RHI:   Driver Version: 416.34 (internal:25.21.14.1634, unified:416.34)
+[2019.01.05-14.03.04:773][  0]LogD3D11RHI:      Driver Date: 10-10-2018
+[2019.01.05-14.03.04:774][  0]LogRHI: Texture pool is 2798 MB (70% of 3998 MB)
+[2019.01.05-14.03.04:805][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.05-14.03.04:825][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.05-14.03.04:874][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Intermediate/Shaders/WorkingDirectory/4308/).
+[2019.01.05-14.03.04:874][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/garren/AppData/Local/Temp/UnrealShaderWorkingDir/B6DF4BDB4D61F46735D17FA3888B06A9/'.
+[2019.01.05-14.03.04:874][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.05-14.03.06:923][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.05-14.03.07:006][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.05-14.03.07:088][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.05-14.03.07:173][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.05-14.03.07:257][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.05-14.03.07:340][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.05-14.03.07:423][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.05-14.03.07:506][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.05-14.03.07:577][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.05-14.03.07:659][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.01.05-14.03.07:740][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.01.05-14.03.07:822][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.01.05-14.03.07:903][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.01.05-14.03.07:983][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.01.05-14.03.08:146][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.01.05-14.03.08:146][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.01.05-14.03.08:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-14.03.08:289][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.05-14.03.08:419][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.05-14.03.08:463][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.05-14.03.08:543][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.05-14.03.08:625][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.05-14.03.08:706][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.05-14.03.08:790][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.05-14.03.08:790][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.05-14.03.09:481][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.05-14.03.09:675][  0]LogDerivedDataCache: Loaded boot cache 0.19s 79MB C:/Users/garren/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2019.01.05-14.03.09:675][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/garren/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2019.01.05-14.03.09:675][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.05-14.03.09:675][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.05-14.03.09:675][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.05-14.03.09:675][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.05-14.03.09:711][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.05-14.03.09:723][  0]LogDerivedDataCache: Using Local data cache path C:/Users/garren/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.05-14.03.09:745][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.05-14.03.09:746][  0]LogSlate: Using Freetype 2.6.0
+[2019.01.05-14.03.09:746][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.05-14.03.09:747][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.05-14.03.10:398][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.05-14.03.10:942][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.05-14.03.11:004][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.05-14.03.11:004][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.05-14.03.11:004][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.05-14.03.11:004][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.01.05-14.03.11:004][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.01.05-14.03.11:046][  0]LogNetVersion: goap_framework , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1161115949)
+[2019.01.05-14.03.11:333][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
+[2019.01.05-14.03.12:249][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.087490 seconds
+[2019.01.05-14.03.12:261][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2019.01.05-14.03.12:261][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2019.01.05-14.03.12:261][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.05-14.03.12:345][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.01.05-14.03.17:092][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.05-14.03.17:148][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.05-14.03.18:560][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.01.05-14.03.19:226][  0]SourceControl: Source control is disabled
+[2019.01.05-14.03.19:226][  0]SourceControl: Source control is disabled
+[2019.01.05-14.03.19:306][  0]SourceControl: Source control is disabled
+[2019.01.05-14.03.19:385][  0]SourceControl: Source control is disabled
+[2019.01.05-14.03.20:682][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.05-14.03.21:092][  0]LogOcInput: OculusInput pre-init called
+[2019.01.05-14.03.21:505][  0]LogEngine: Initializing Engine...
+[2019.01.05-14.03.21:508][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.05-14.03.21:919][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.05-14.03.21:919][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.05-14.03.22:119][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.05-14.03.22:132][  0]LogInit: XAudio2 using 'LCD1971w (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.05-14.03.22:162][  0]LogInit: FAudioDevice initialized.
+[2019.01.05-14.03.22:395][  0]LogDerivedDataCache: Saved boot cache 0.23s 79MB C:/Users/garren/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2019.01.05-14.03.22:435][  0]LogInit: Texture streaming: Enabled
+[2019.01.05-14.03.22:588][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.05-14.03.22:799][  0]LogInit: Transaction tracking system initialized
+[2019.01.05-14.03.23:302][  0]BlueprintLog: New page: Editor Load
+[2019.01.05-14.03.24:779][  0]LocalizationService: Localization service is disabled
+[2019.01.05-14.03.26:259][  0]LogConsoleResponse: Display: 
+[2019.01.05-14.03.26:609][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.05-14.03.26:609][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.05-14.03.26:609][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.05-14.03.26:701][  0]LogFileCache: Scanning file cache for directory 'C:/Users/garren/Documents/Unreal Projects/goap_framework/Content/' took 0.01s
+[2019.01.05-14.03.28:435][  0]SourceControl: Source control is disabled
+[2019.01.05-14.03.28:436][  0]Cmd: MAP LOAD FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.05-14.03.28:436][  0]LightingResults: New page: Lighting Build
+[2019.01.05-14.03.28:503][  0]MapCheck: New page: Map Check
+[2019.01.05-14.03.28:504][  0]LightingResults: New page: Lighting Build
+[2019.01.05-14.03.28:549][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.28:564][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.28:564][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.28:565][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.28:565][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.28:565][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.28:566][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.28:566][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.28:567][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.28:777][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.28:777][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.28:779][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.28:783][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.28:784][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.28:784][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.28:786][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.28:792][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.28:808][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.28:809][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.28:931][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.05-14.03.28:947][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.05-14.03.28:970][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.05-14.03.29:042][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 71.804ms to complete.
+[2019.01.05-14.03.29:042][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.606
+[2019.01.05-14.03.29:255][  0]LogCollectionManager: Loaded 0 collections in 0.002123 seconds
+[2019.01.05-14.03.29:355][  0]LogFileCache: Scanning file cache for directory 'C:/Users/garren/Documents/Unreal Projects/goap_framework/Saved/Collections/' took 0.01s
+[2019.01.05-14.03.29:355][  0]LogFileCache: Scanning file cache for directory 'C:/Users/garren/Documents/Unreal Projects/goap_framework/Content/Developers/garren/Collections/' took 0.01s
+[2019.01.05-14.03.29:355][  0]LogFileCache: Scanning file cache for directory 'C:/Users/garren/Documents/Unreal Projects/goap_framework/Content/Collections/' took 0.01s
+[2019.01.05-14.03.29:355][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.01.05-14.03.29:372][  0]LogContentBrowser: Native class hierarchy populated in 0.0161 seconds. Added 2377 classes and 529 folders.
+[2019.01.05-14.03.29:472][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2019.01.05-14.03.29:532][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2019.01.05-14.03.29:599][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2019.01.05-14.03.29:661][  0]LogSlate: Took 0.000395 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.05-14.03.29:666][  0]LogSlate: Took 0.000372 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.05-14.03.29:679][  0]LogSlate: Took 0.000362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.05-14.03.29:893][  0]LogRenderer: Reallocating scene render targets to support 856x380 Format 9 NumSamples 1 (Frame:1).
+[2019.01.05-14.03.30:186][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2019.01.05-14.03.30:186][  0]LogLoad: (Engine Initialization) Total time: 30.50 seconds
+[2019.01.05-14.03.30:186][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.05-14.03.30:186][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2019.01.05-14.03.30:197][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'UserConstructionScript': BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.30:197][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': DemoGOAPCharacter_C /Game/AI/Demo/DemoGOAPCharacter.Default__DemoGOAPCharacter_C
+[2019.01.05-14.03.30:197][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': DemoGOAPCharacter_C /Game/AI/Demo/DemoGOAPCharacter.Default__DemoGOAPCharacter_C
+[2019.01.05-14.03.30:197][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': DemoGOAPCharacter_C /Game/AI/Demo/DemoGOAPCharacter.Default__DemoGOAPCharacter_C
+[2019.01.05-14.03.30:197][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.30:197][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0': BlueprintGeneratedClass /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C
+[2019.01.05-14.03.30:197][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_0': SimpleConstructionScript /Game/AI/Demo/DemoGOAPCharacter.DemoGOAPCharacter_C:SimpleConstructionScript_0
+[2019.01.05-14.03.30:197][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharacterMesh0': DemoGOAPCharacter_C /Game/AI/Demo/DemoGOAPCharacter.Default__DemoGOAPCharacter_C
+[2019.01.05-14.03.30:197][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': DemoGOAPCharacter_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DemoGOAPCharacter_2
+[2019.01.05-14.03.30:197][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': DemoGOAPCharacter_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DemoGOAPCharacter_2
+[2019.01.05-14.03.30:198][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': DemoGOAPCharacter_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DemoGOAPCharacter_2
+[2019.01.05-14.03.30:198][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharacterMesh0': DemoGOAPCharacter_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DemoGOAPCharacter_2
+[2019.01.05-14.03.30:217][  0]LogContentStreaming: Texture pool size now 600 MB
+[2019.01.05-14.03.30:325][  0]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.01.05-14.03.30:635][  3]LogAssetRegistry: Asset discovery search completed in 19.3219 seconds
+[2019.01.05-14.03.30:639][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2019.01.05-14.03.30:639][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000126 seconds (updated 0 objects)
+[2019.01.05-14.06.45:176][729]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.01.05-14.06.51:559][147]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.05-14.06.51:695][147]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.06.51:708][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-14.06.51:750][147]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 5, 2019, 10:06:51 AM)
+[2019.01.05-14.06.51:754][147]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.05-14.06.51:864][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.109207s)
+[2019.01.05-14.06.51:867][147]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.05-14.06.51:873][147]LogPlayLevel: PIE: World Init took: (0.009306s)
+[2019.01.05-14.06.51:879][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.124685s)
+[2019.01.05-14.06.51:921][147]LogInit: XAudio2 using 'LCD1971w (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.05-14.06.51:933][147]LogInit: FAudioDevice initialized.
+[2019.01.05-14.06.51:987][147]LogLoad: Game class is 'goap_frameworkGameMode'
+[2019.01.05-14.06.52:071][147]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.05-12.06.52
+[2019.01.05-14.06.52:100][147]LogWorld: Bringing up level for play took: 0.037028
+[2019.01.05-14.06.52:336][147]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2019.01.05-14.06.52:366][147]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.364
+[2019.01.05-14.06.52:367][147]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.06.56:981][518]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.06.57:039][518]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.11.40:098][143]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.01.05-14.15.56:896][373]LogSavePackage: Save=208.96ms
+[2019.01.05-14.15.56:896][373]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/ThirdPersonExampleMap4F25B189474C79D8D21340A9E1707371.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.01.05-14.15.56:900][373]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2019.01.05-14.15.57:463][373]LogSavePackage: Save=498.78ms
+[2019.01.05-14.15.57:463][373]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/ThirdPersonExampleMap_BuiltDataE1202B73401FE85BEEE07BB51445097F.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.05-14.15.57:466][373]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2019.01.05-14.15.58:980][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Demo/NewBehaviorTree" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/NewBehaviorTree.uasset" SILENT=true
+[2019.01.05-14.15.58:983][455]LogSavePackage: Save=1.33ms
+[2019.01.05-14.15.58:983][455]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/NewBehaviorTree6539491142A8C2C8BA2C0E8FDC9211B4.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/NewBehaviorTree.uasset'
+[2019.01.05-14.15.58:994][455]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/NewBehaviorTree.uasset
+[2019.01.05-14.17.05:588][305]LogSavePackage: Save=196.55ms
+[2019.01.05-14.17.05:588][305]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/ThirdPersonExampleMap638DBDC442ACC0D3B0F2358114AE6DE9.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.01.05-14.17.05:592][305]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2019.01.05-14.17.06:144][305]LogSavePackage: Save=501.65ms
+[2019.01.05-14.17.06:144][305]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/ThirdPersonExampleMap_BuiltData4EE8EEE14A53D5C4A633AEAD9BE04A5E.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.05-14.17.06:146][305]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2019.01.05-14.18.25:866][  7]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.05-14.18.25:897][  7]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.18.25:897][  7]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-14.18.25:897][  7]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 5, 2019, 10:18:25 AM)
+[2019.01.05-14.18.25:897][  7]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.05-14.18.25:936][  7]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038900s)
+[2019.01.05-14.18.25:937][  7]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.05-14.18.25:938][  7]LogPlayLevel: PIE: World Init took: (0.001715s)
+[2019.01.05-14.18.25:938][  7]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.041047s)
+[2019.01.05-14.18.25:974][  7]LogInit: XAudio2 using 'LCD1971w (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.05-14.18.25:984][  7]LogInit: FAudioDevice initialized.
+[2019.01.05-14.18.26:029][  7]LogLoad: Game class is 'goap_frameworkGameMode'
+[2019.01.05-14.18.26:033][  7]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.05-12.18.26
+[2019.01.05-14.18.26:033][  7]LogWorld: Bringing up level for play took: 0.003284
+[2019.01.05-14.18.26:035][  7]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.033
+[2019.01.05-14.18.26:036][  7]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.18.27:194][ 84]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.18.27:233][ 84]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.18.32:340][345]LogRenderer: Reallocating scene render targets to support 856x380 Format 10 NumSamples 1 (Frame:71039).
+[2019.01.05-14.18.32:463][346]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.05-14.18.33:037][371]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.05-14.18.33:867][375]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.05-14.18.33:894][375]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.18.33:894][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-14.18.33:894][375]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 5, 2019, 10:18:33 AM)
+[2019.01.05-14.18.33:895][375]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.05-14.18.33:932][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037198s)
+[2019.01.05-14.18.33:933][375]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.05-14.18.33:933][375]LogPlayLevel: PIE: World Init took: (0.001218s)
+[2019.01.05-14.18.33:933][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.038779s)
+[2019.01.05-14.18.33:977][375]LogInit: XAudio2 using 'LCD1971w (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.05-14.18.33:985][375]LogInit: FAudioDevice initialized.
+[2019.01.05-14.18.34:017][375]LogLoad: Game class is 'goap_frameworkGameMode'
+[2019.01.05-14.18.34:021][375]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.05-12.18.34
+[2019.01.05-14.18.34:021][375]LogWorld: Bringing up level for play took: 0.003005
+[2019.01.05-14.18.34:023][375]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.021
+[2019.01.05-14.18.34:023][375]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.18.37:222][631]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.18.37:261][631]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.18.43:283][787]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.01.05-14.18.43:845][800]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.goapframework
+[2019.01.05-14.18.43:845][800]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2019.01.05-14.18.43:845][800]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2019.01.05-14.18.43:845][800]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2019.01.05-14.18.43:845][800]LogTemp: BranchPath = CALC-MACHINE/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = CALC-MACHINE/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2019.01.05-14.18.44:383][835]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\garren\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.01.05-14.18.52:855][400]Cmd: STAT FPS
+[2019.01.05-14.18.55:510][590]LogSavePackage: Save=195.55ms
+[2019.01.05-14.18.55:510][590]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/ThirdPersonExampleMap6EC06BCC4B7211D0AE15DBA5E8A009BF.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.01.05-14.18.55:513][590]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2019.01.05-14.18.56:060][590]LogSavePackage: Save=503.22ms
+[2019.01.05-14.18.56:060][590]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/ThirdPersonExampleMap_BuiltData7500515344ACB25D47386D905A80D88C.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.05-14.18.56:061][590]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2019.01.05-14.19.17:163][872]LogSavePackage: Save=195.93ms
+[2019.01.05-14.19.17:163][872]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/ThirdPersonExampleMap9D314B2946F3322B0CDD12B3F3279F10.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.01.05-14.19.17:166][872]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2019.01.05-14.19.17:710][872]LogSavePackage: Save=497.53ms
+[2019.01.05-14.19.17:710][872]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/ThirdPersonExampleMap_BuiltData1017F883415117F43E2A2DB277E94192.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.05-14.19.17:711][872]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2019.01.05-14.19.23:564][348]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.05-14.19.23:591][348]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.19.23:591][348]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-14.19.23:591][348]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 5, 2019, 10:19:23 AM)
+[2019.01.05-14.19.23:591][348]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.05-14.19.23:648][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057078s)
+[2019.01.05-14.19.23:653][348]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.05-14.19.23:653][348]LogPlayLevel: PIE: World Init took: (0.004684s)
+[2019.01.05-14.19.23:654][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.062395s)
+[2019.01.05-14.19.23:685][348]LogInit: XAudio2 using 'LCD1971w (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.05-14.19.23:694][348]LogInit: FAudioDevice initialized.
+[2019.01.05-14.19.23:731][348]LogLoad: Game class is 'goap_frameworkGameMode'
+[2019.01.05-14.19.23:734][348]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.05-12.19.23
+[2019.01.05-14.19.23:735][348]LogWorld: Bringing up level for play took: 0.003013
+[2019.01.05-14.19.23:737][348]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.265
+[2019.01.05-14.19.23:738][348]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.19.25:073][453]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.19.25:110][453]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.19.25:910][515]Cmd: STAT FPS
+[2019.01.05-14.19.27:533][657]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.05-14.19.27:559][657]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.19.27:559][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-14.19.27:560][657]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 5, 2019, 10:19:27 AM)
+[2019.01.05-14.19.27:560][657]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.05-14.19.27:607][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046877s)
+[2019.01.05-14.19.27:608][657]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.05-14.19.27:608][657]LogPlayLevel: PIE: World Init took: (0.001520s)
+[2019.01.05-14.19.27:608][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.048759s)
+[2019.01.05-14.19.27:644][657]LogInit: XAudio2 using 'LCD1971w (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.05-14.19.27:652][657]LogInit: FAudioDevice initialized.
+[2019.01.05-14.19.27:687][657]LogLoad: Game class is 'goap_frameworkGameMode'
+[2019.01.05-14.19.27:691][657]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.05-12.19.27
+[2019.01.05-14.19.27:691][657]LogWorld: Bringing up level for play took: 0.002964
+[2019.01.05-14.19.27:693][657]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.309
+[2019.01.05-14.19.27:693][657]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.19.43:831][ 21]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.19.43:868][ 21]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.05-14.19.45:511][134]LogSavePackage: Save=194.97ms
+[2019.01.05-14.19.45:512][134]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/ThirdPersonExampleMap952C00ED499A97B7BC267AA8B6172E48.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.01.05-14.19.45:517][134]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2019.01.05-14.19.46:069][134]LogSavePackage: Save=501.69ms
+[2019.01.05-14.19.46:069][134]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/ThirdPersonExampleMap_BuiltDataC67FAF2B4AFAC7ABE3787FBDA8549A40.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.05-14.19.46:071][134]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2019.01.05-14.19.46:407][156]LogLinker: Warning: Can't find file '/Game/Characters/AI/Enemys/LumberJack/BB_model'
+[2019.01.05-14.19.46:407][156]LogLinker: Warning: Can't find file for asset '/Game/Characters/AI/Enemys/LumberJack/BB_model' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/BT_model.uasset.
+[2019.01.05-14.19.46:407][156]LoadErrors: Error: /Game/AI/Demo/BT_model : Can't find file for asset. /Game/Characters/AI/Enemys/LumberJack/BB_model
+[2019.01.05-14.19.46:408][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:408][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/BT_model.uasset.
+[2019.01.05-14.19.46:408][156]LoadErrors: Error: /Game/AI/Demo/BT_model : Can't find file for asset. /Script/GOAPFramework
+[2019.01.05-14.19.46:408][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:408][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/BT_model.uasset.
+[2019.01.05-14.19.46:408][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:408][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/BT_model.uasset.
+[2019.01.05-14.19.46:409][156]LogLinker: Warning: Can't find file '/Game/Characters/AI/Enemys/LumberJack/BB_model'
+[2019.01.05-14.19.46:409][156]LogLinker: Warning: Can't find file for asset '/Game/Characters/AI/Enemys/LumberJack/BB_model' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/BT_model.uasset.
+[2019.01.05-14.19.46:409][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:409][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/BT_model.uasset.
+[2019.01.05-14.19.46:409][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:410][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.19.46:410][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:410][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.19.46:411][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:411][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.19.46:411][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:411][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.19.46:411][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:411][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.19.46:411][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:412][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.19.46:412][156]LogLinker: Warning: Can't find file '/Game/Characters/AI/Enemys/LumberJack/BB_model'
+[2019.01.05-14.19.46:412][156]LoadErrors: Failed to load /Game/Characters/AI/Enemys/LumberJack/BB_model.BB_model Referenced by BT_model
+[2019.01.05-14.19.46:412][156]LogLinker: Warning: Can't find file for asset '/Game/Characters/AI/Enemys/LumberJack/BB_model' while loading NULL.
+[2019.01.05-14.19.46:413][156]LogLinker: Warning: Can't find file '/Game/Characters/AI/Enemys/LumberJack/BB_model'
+[2019.01.05-14.19.46:413][156]LoadErrors: Failed to load /Game/Characters/AI/Enemys/LumberJack/BB_model.BB_model Referenced by BehaviorTreeGraphNode_Root_0
+[2019.01.05-14.19.46:413][156]LogLinker: Warning: Can't find file for asset '/Game/Characters/AI/Enemys/LumberJack/BB_model' while loading NULL.
+[2019.01.05-14.19.46:413][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:413][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.19.46:413][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:413][156]LoadErrors: Failed to load /Script/GOAPFramework.CheckGoal Referenced by BehaviorTreeGraphNode_Task_16
+[2019.01.05-14.19.46:413][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.19.46:414][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:414][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.19.46:414][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:414][156]LoadErrors: Failed to load /Script/GOAPFramework.AdjustUtilities Referenced by BehaviorTreeGraphNode_Task_17
+[2019.01.05-14.19.46:414][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.19.46:414][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:414][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.19.46:414][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:414][156]LoadErrors: Failed to load /Script/GOAPFramework.RunPlanner Referenced by BehaviorTreeGraphNode_Task_30
+[2019.01.05-14.19.46:414][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.19.46:415][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:415][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.19.46:415][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:415][156]LoadErrors: Failed to load /Script/GOAPFramework.RunPlanner Referenced by BTComposite_Sequence_4
+[2019.01.05-14.19.46:415][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.19.46:415][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:415][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.19.46:415][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:415][156]LoadErrors: Failed to load /Script/GOAPFramework.CheckGoal Referenced by BTComposite_Sequence_7
+[2019.01.05-14.19.46:416][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.19.46:416][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:416][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.19.46:416][156]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.19.46:416][156]LoadErrors: Failed to load /Script/GOAPFramework.AdjustUtilities Referenced by BTComposite_Sequence_8
+[2019.01.05-14.19.46:416][156]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.19.46:475][156]LogAIGraph: Error: RunPlanner class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_30
+[2019.01.05-14.19.46:475][156]LogAIGraph: Error: CheckGoal class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_16
+[2019.01.05-14.19.46:475][156]LogAIGraph: Error: AdjustUtilities class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_17
+[2019.01.05-14.19.46:475][156]LogBehaviorTree: Warning: Can't initialize BTDecorator_ConditionalLoop_0 due to missing blackboard data.
+[2019.01.05-14.19.46:496][156]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.05-14.19.54:944][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Demo/BT_model" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/BT_model.uasset" SILENT=true
+[2019.01.05-14.19.54:949][596]LogAIGraph: Error: RunPlanner class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_30
+[2019.01.05-14.19.54:950][596]LogAIGraph: Error: CheckGoal class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_16
+[2019.01.05-14.19.54:950][596]LogAIGraph: Error: AdjustUtilities class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_17
+[2019.01.05-14.19.54:952][596]LogAIGraph: Error: RunPlanner class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_30
+[2019.01.05-14.19.54:952][596]LogAIGraph: Error: CheckGoal class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_16
+[2019.01.05-14.19.54:952][596]LogAIGraph: Error: AdjustUtilities class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_17
+[2019.01.05-14.19.54:956][596]LogAIGraph: Error: RunPlanner class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_30
+[2019.01.05-14.19.54:956][596]LogAIGraph: Error: CheckGoal class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_16
+[2019.01.05-14.19.54:956][596]LogAIGraph: Error: AdjustUtilities class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_17
+[2019.01.05-14.19.54:960][596]LogAIGraph: Error: RunPlanner class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_30
+[2019.01.05-14.19.54:960][596]LogAIGraph: Error: CheckGoal class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_16
+[2019.01.05-14.19.54:960][596]LogAIGraph: Error: AdjustUtilities class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_17
+[2019.01.05-14.19.54:961][596]LogAIGraph: Error: RunPlanner class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_30
+[2019.01.05-14.19.54:961][596]LogAIGraph: Error: CheckGoal class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_16
+[2019.01.05-14.19.54:961][596]LogAIGraph: Error: AdjustUtilities class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_17
+[2019.01.05-14.19.54:962][596]LogSavePackage: Save=13.67ms
+[2019.01.05-14.19.54:962][596]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/BT_modelF3E6847943A557BE865366A998DED444.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/BT_model.uasset'
+[2019.01.05-14.19.54:964][596]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/BT_model.uasset
+[2019.01.05-14.22.23:967][582]LogAIGraph: Error: RunPlanner class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_30
+[2019.01.05-14.22.23:967][582]LogAIGraph: Error: CheckGoal class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_16
+[2019.01.05-14.22.23:967][582]LogAIGraph: Error: AdjustUtilities class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_17
+[2019.01.05-14.22.26:227][696]LogAIGraph: Error: RunPlanner class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_30
+[2019.01.05-14.22.26:227][696]LogAIGraph: Error: CheckGoal class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_16
+[2019.01.05-14.22.26:227][696]LogAIGraph: Error: AdjustUtilities class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_17
+[2019.01.05-14.22.31:661][929]LogAIGraph: Error: RunPlanner class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_30
+[2019.01.05-14.22.31:662][929]LogAIGraph: Error: AdjustUtilities class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_17
+[2019.01.05-14.22.39:600][410]LogAIGraph: Error: AdjustUtilities class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_17
+[2019.01.05-14.22.45:708][720]LogAIGraph: Error: AdjustUtilities class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/BT_model.BT_model:Behavior Tree.BehaviorTreeGraphNode_Task_17
+[2019.01.05-14.22.51:963][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Demo/BT_model" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/BT_model.uasset" SILENT=true
+[2019.01.05-14.22.51:982][ 72]LogSavePackage: Save=14.39ms
+[2019.01.05-14.22.51:982][ 72]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/BT_model1F876732490104A52FCFA2BC8FC8A4ED.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/BT_model.uasset'
+[2019.01.05-14.22.51:984][ 72]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/BT_model.uasset
+[2019.01.05-14.22.59:128][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Demo/BT_model" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/BT_model.uasset" SILENT=true
+[2019.01.05-14.22.59:146][442]LogSavePackage: Save=14.75ms
+[2019.01.05-14.22.59:146][442]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/BT_model56E1DF7549379222CF5375991219C2DF.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/BT_model.uasset'
+[2019.01.05-14.22.59:148][442]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/BT_model.uasset
+[2019.01.05-14.37.26:989][567]LogHotReload: New module detected: UE4Editor-goap_framework-3066.dll
+[2019.01.05-14.37.28:471][572]LogHotReload: Starting Hot-Reload from IDE
+[2019.01.05-14.37.28:622][572]LogClass: Could not find existing class Mannequin in package /Script/goap_framework for HotReload, assuming new class
+[2019.01.05-14.37.28:645][572]LogContentBrowser: Native class hierarchy updated for 'goap_framework' in 0.0018 seconds. Added 9 classes and 6 folders.
+[2019.01.05-14.37.28:650][572]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.01.05-14.37.28:875][572]LogContentBrowser: Native class hierarchy populated in 0.0187 seconds. Added 2380 classes and 534 folders.
+[2019.01.05-14.37.28:879][572]Display: HotReload took  0.4s.
+[2019.01.05-14.40.17:996][ 54]LogSavePackage: Save=200.48ms
+[2019.01.05-14.40.17:996][ 54]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/ThirdPersonExampleMap1BA25EE64B3820779A6C1187E4E74FC5.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.01.05-14.40.18:001][ 54]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2019.01.05-14.40.18:874][ 54]LogSavePackage: Save=684.87ms
+[2019.01.05-14.40.18:874][ 54]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/ThirdPersonExampleMap_BuiltData69ED496940FCA93CC5448886CAADA927.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.05-14.40.18:876][ 54]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2019.01.05-14.40.18:878][ 54]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.05-14.40.19:861][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/QuickStart/BT_model" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/QuickStart/BT_model.uasset" SILENT=true
+[2019.01.05-14.40.19:882][ 87]LogSavePackage: Save=19.85ms
+[2019.01.05-14.40.19:882][ 87]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/BT_model995BAFE14AB685657D219CA310F9DC82.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/QuickStart/BT_model.uasset'
+[2019.01.05-14.40.19:885][ 87]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/QuickStart/BT_model.uasset
+[2019.01.05-14.40.19:891][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/QuickStart/BB_model" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/QuickStart/BB_model.uasset" SILENT=true
+[2019.01.05-14.40.19:895][ 87]LogSavePackage: Save=2.47ms
+[2019.01.05-14.40.19:895][ 87]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/BB_modelF9475DA5497443042B17958E3B31169F.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/QuickStart/BB_model.uasset'
+[2019.01.05-14.40.19:896][ 87]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/QuickStart/BB_model.uasset
+[2019.01.05-14.40.30:488][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Demo/Mannequim_BB" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/Mannequim_BB.uasset" SILENT=true
+[2019.01.05-14.40.30:492][919]LogSavePackage: Save=2.51ms
+[2019.01.05-14.40.30:492][919]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/Mannequim_BBC5102F5F4665C88B869A508D536EAD73.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/Mannequim_BB.uasset'
+[2019.01.05-14.40.30:494][919]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/Mannequim_BB.uasset
+[2019.01.05-14.40.30:648][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Demo/BT_model" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/BT_model.uasset" SILENT=true
+[2019.01.05-14.40.30:666][919]LogSavePackage: Save=13.58ms
+[2019.01.05-14.40.30:666][919]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/BT_model2267FAF44CB2D71EB26C58948855D9FF.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/BT_model.uasset'
+[2019.01.05-14.40.30:667][919]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/BT_model.uasset
+[2019.01.05-14.40.30:672][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/QuickStart/BT_model" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/QuickStart/BT_model.uasset" SILENT=true
+[2019.01.05-14.40.30:690][919]LogSavePackage: Save=14.20ms
+[2019.01.05-14.40.30:690][919]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/BT_model47718A464E794B0F1B72AB91F62A0DD7.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/QuickStart/BT_model.uasset'
+[2019.01.05-14.40.30:693][919]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/QuickStart/BT_model.uasset
+[2019.01.05-14.40.37:638][497]LogMetaData: Removing '/Game/AI/Demo/Mannequim_BT.Mannequim_BT:Behavior Tree.BehaviorTreeGraphNode_Root_0' ref from Metadata '/Game/AI/Demo/BT_model.PackageMetaData'
+[2019.01.05-14.40.37:655][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Demo/Mannequim_BT" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/Mannequim_BT.uasset" SILENT=true
+[2019.01.05-14.40.37:671][497]LogSavePackage: Save=15.21ms
+[2019.01.05-14.40.37:671][497]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/Mannequim_BT7B5664ED4367634CF58CBDB183DA4BAE.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/Mannequim_BT.uasset'
+[2019.01.05-14.40.37:673][497]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/Mannequim_BT.uasset
+[2019.01.05-14.40.38:212][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Demo/Mannequim_BT" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/Mannequim_BT.uasset" SILENT=true
+[2019.01.05-14.40.38:231][521]LogSavePackage: Save=14.13ms
+[2019.01.05-14.40.38:231][521]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/Mannequim_BT3700143F40860472BE559D8285B5B5B3.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/Mannequim_BT.uasset'
+[2019.01.05-14.40.38:233][521]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/Mannequim_BT.uasset
+[2019.01.05-14.41.04:249][860]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/Demo/GOAPMannequim.
+[2019.01.05-14.41.04:769][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Demo/GOAPMannequim" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset" SILENT=true
+[2019.01.05-14.41.04:807][888]LogSavePackage: Save=35.38ms
+[2019.01.05-14.41.04:807][888]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/GOAPMannequimBC32F52D4A013308861EEBA4CB42BCFA.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset'
+[2019.01.05-14.41.04:809][888]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset
+[2019.01.05-14.41.04:873][894]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/Demo/GOAPMannequim.
+[2019.01.05-14.41.09:274][159]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 116 classes and 0 folders.
+[2019.01.05-14.41.10:428][159]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2019.01.05-14.41.10:804][159]LogMaterial: Missing cached shader map for material PersonaFloorMat, compiling. 
+[2019.01.05-14.41.11:405][159]LogRenderer: Reallocating scene render targets to support 856x600 Format 10 NumSamples 1 (Frame:1).
+[2019.01.05-14.41.12:731][197]LogSlate: Took 0.025459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.05-14.41.14:571][247]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.05-14.41.21:166][418]BlueprintLog: New page: Compile GOAPMannequim
+[2019.01.05-14.41.22:511][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Demo/GOAPMannequim" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset" SILENT=true
+[2019.01.05-14.41.22:551][434]LogSavePackage: Save=35.07ms
+[2019.01.05-14.41.22:551][434]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/GOAPMannequim0C008AD5452D02B0FC7F1F95C3E679FD.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset'
+[2019.01.05-14.41.22:554][434]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset
+[2019.01.05-14.41.36:832][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Demo/GOAPMannequim" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset" SILENT=true
+[2019.01.05-14.41.36:869][799]LogSavePackage: Save=32.70ms
+[2019.01.05-14.41.36:869][799]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/GOAPMannequimACC378964414D52F0D043C85B5E9E6BC.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset'
+[2019.01.05-14.41.36:872][799]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset
+[2019.01.05-14.41.37:708][825]BlueprintLog: New page: Compile GOAPMannequim
+[2019.01.05-14.41.45:482][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Demo/GOAPMannequim" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset" SILENT=true
+[2019.01.05-14.41.45:521][964]LogSavePackage: Save=34.14ms
+[2019.01.05-14.41.45:521][964]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/GOAPMannequimEFD12C4E41E109668DE57CAABBF558EB.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset'
+[2019.01.05-14.41.45:523][964]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset
+[2019.01.05-14.41.46:452][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Demo/GOAPMannequim" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset" SILENT=true
+[2019.01.05-14.41.46:479][995]LogSavePackage: Save=23.11ms
+[2019.01.05-14.41.46:479][995]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/GOAPMannequim5206794C45A976181620F5A7ED748462.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset'
+[2019.01.05-14.41.46:481][995]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset
+[2019.01.05-14.42.04:330][175]BlueprintLog: New page: Compile GOAPMannequim
+[2019.01.05-14.43.29:569][746]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.05-14.43.32:576][850]BlueprintLog: New page: Compile GOAPMannequim
+[2019.01.05-14.43.33:489][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Demo/GOAPMannequim" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset" SILENT=true
+[2019.01.05-14.43.33:527][854]LogSavePackage: Save=34.34ms
+[2019.01.05-14.43.33:527][854]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/GOAPMannequim549790944C8663BF8E42009A0AAC5079.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset'
+[2019.01.05-14.43.33:530][854]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset
+[2019.01.05-14.43.33:679][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Demo/GOAPMannequim" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset" SILENT=true
+[2019.01.05-14.43.33:704][859]LogSavePackage: Save=21.00ms
+[2019.01.05-14.43.33:704][859]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/GOAPMannequim54FDD8FB42240AD276385980BBB384C4.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset'
+[2019.01.05-14.43.33:711][859]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset
+[2019.01.05-14.45.21:538][213]LogHotReload: New module detected: UE4Editor-goap_framework-9426.dll
+[2019.01.05-14.45.23:529][219]LogHotReload: Starting Hot-Reload from IDE
+[2019.01.05-14.45.23:722][219]LogClass: Could not find existing class GOAPCharacter in package /Script/goap_framework for HotReload, assuming new class
+[2019.01.05-14.45.23:733][219]LogClass: Could not find existing class Mannequin in package /Script/goap_framework for HotReload, assuming new class
+[2019.01.05-14.45.23:766][219]LogHotReload: Re-instancing GOAPCharacter after hot-reload.
+[2019.01.05-14.45.23:991][219]LogHotReload: Re-instancing Mannequin after hot-reload.
+[2019.01.05-14.45.24:712][219]LogContentBrowser: Native class hierarchy updated for 'goap_framework' in 0.0014 seconds. Added 9 classes and 6 folders.
+[2019.01.05-14.45.24:720][219]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.01.05-14.45.25:383][219]LogContentBrowser: Native class hierarchy populated in 0.0177 seconds. Added 2380 classes and 534 folders.
+[2019.01.05-14.45.25:387][219]Display: HotReload took  1.9s.
+[2019.01.05-14.51.58:328][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Demo/GOAPMannequim" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset" SILENT=true
+[2019.01.05-14.51.58:371][600]LogSavePackage: Save=34.23ms
+[2019.01.05-14.51.58:371][600]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/GOAPMannequimD9A64EDC4E592953E92B3CB953F4F018.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset'
+[2019.01.05-14.51.58:373][600]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset
+[2019.01.05-14.52.31:791][914]BlueprintLog: New page: Compile GOAPMannequim
+[2019.01.05-14.52.33:907][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Demo/GOAPMannequim" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset" SILENT=true
+[2019.01.05-14.52.33:943][950]LogSavePackage: Save=32.20ms
+[2019.01.05-14.52.33:943][950]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/GOAPMannequim206AC75B4646013FBC0C718B45B34E84.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset'
+[2019.01.05-14.52.33:945][950]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset
+[2019.01.05-14.52.41:232][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Demo/GOAPMannequim" FILE="../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset" SILENT=true
+[2019.01.05-14.52.41:259][197]LogSavePackage: Save=23.99ms
+[2019.01.05-14.52.41:259][197]LogSavePackage: Moving '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Saved/GOAPMannequim719138A6455C9851301349B23556D32E.tmp' to '../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset'
+[2019.01.05-14.52.41:261][197]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/GOAPMannequim.uasset
+[2019.01.05-14.53.24:130][504]LogLinker: Warning: Can't find file '/Game/Characters/AI/WorldGuardian/WorldGuardianBB'
+[2019.01.05-14.53.24:130][504]LogLinker: Warning: Can't find file for asset '/Game/Characters/AI/WorldGuardian/WorldGuardianBB' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/LamberJack_BB.uasset.
+[2019.01.05-14.53.24:130][504]LoadErrors: Error: /Game/AI/Demo/LamberJack_BB : Can't find file for asset. /Game/Characters/AI/WorldGuardian/WorldGuardianBB
+[2019.01.05-14.53.24:131][504]LogLinker: Warning: Can't find file '/Game/Characters/AI/WorldGuardian/WorldGuardianBB'
+[2019.01.05-14.53.24:131][504]LogLinker: Warning: Can't find file for asset '/Game/Characters/AI/WorldGuardian/WorldGuardianBB' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/LamberJack_BB.uasset.
+[2019.01.05-14.53.24:138][504]LogLinker: Warning: Can't find file '/Game/Characters/AI/WorldGuardian/WorldGuardianBB'
+[2019.01.05-14.53.24:138][504]LoadErrors: Failed to load /Game/Characters/AI/WorldGuardian/WorldGuardianBB.WorldGuardianBB Referenced by LamberJack_BB
+[2019.01.05-14.53.24:138][504]LogLinker: Warning: Can't find file for asset '/Game/Characters/AI/WorldGuardian/WorldGuardianBB' while loading NULL.
+[2019.01.05-14.53.34:089][  0]LogLinker: Warning: Can't find file '/Game/Jerenibba/Animations/Attack02_Fire'
+[2019.01.05-14.53.34:090][  0]LogLinker: Warning: Can't find file for asset '/Game/Jerenibba/Animations/Attack02_Fire' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/LumberJack_BT.uasset.
+[2019.01.05-14.53.34:090][  0]LoadErrors: Error: /Game/AI/Demo/LumberJack_BT : Can't find file for asset. /Game/Jerenibba/Animations/Attack02_Fire
+[2019.01.05-14.53.34:090][  0]LogLinker: Warning: Can't find file '/Game/Jerenibba/Animations/ThrowSpell_new'
+[2019.01.05-14.53.34:090][  0]LogLinker: Warning: Can't find file for asset '/Game/Jerenibba/Animations/ThrowSpell_new' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/LumberJack_BT.uasset.
+[2019.01.05-14.53.34:090][  0]LoadErrors: Error: /Game/AI/Demo/LumberJack_BT : Can't find file for asset. /Game/Jerenibba/Animations/ThrowSpell_new
+[2019.01.05-14.53.34:090][  0]LogLinker: Warning: Can't find file '/Game/Jerenibba/Generic/Attack'
+[2019.01.05-14.53.34:090][  0]LogLinker: Warning: Can't find file for asset '/Game/Jerenibba/Generic/Attack' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/LumberJack_BT.uasset.
+[2019.01.05-14.53.34:090][  0]LoadErrors: Error: /Game/AI/Demo/LumberJack_BT : Can't find file for asset. /Game/Jerenibba/Generic/Attack
+[2019.01.05-14.53.34:091][  0]LogLinker: Warning: Can't find file '/Game/Characters/AI/Enemys/LumberJack/LamberJack_BB'
+[2019.01.05-14.53.34:091][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/AI/Enemys/LumberJack/LamberJack_BB' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/LumberJack_BT.uasset.
+[2019.01.05-14.53.34:091][  0]LoadErrors: Error: /Game/AI/Demo/LumberJack_BT : Can't find file for asset. /Game/Characters/AI/Enemys/LumberJack/LamberJack_BB
+[2019.01.05-14.53.34:091][  0]LogLinker: Warning: Can't find file '/Game/Characters/AI/BTTasks/LaunchProjectile'
+[2019.01.05-14.53.34:091][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/AI/BTTasks/LaunchProjectile' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/LumberJack_BT.uasset.
+[2019.01.05-14.53.34:091][  0]LoadErrors: Error: /Game/AI/Demo/LumberJack_BT : Can't find file for asset. /Game/Characters/AI/BTTasks/LaunchProjectile
+[2019.01.05-14.53.34:091][  0]LogLinker: Warning: Can't find file '/Game/Projectiles/SparkSphere'
+[2019.01.05-14.53.34:092][  0]LogLinker: Warning: Can't find file for asset '/Game/Projectiles/SparkSphere' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/LumberJack_BT.uasset.
+[2019.01.05-14.53.34:092][  0]LoadErrors: Error: /Game/AI/Demo/LumberJack_BT : Can't find file for asset. /Game/Projectiles/SparkSphere
+[2019.01.05-14.53.34:093][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:093][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/LumberJack_BT.uasset.
+[2019.01.05-14.53.34:093][  0]LoadErrors: Error: /Game/AI/Demo/LumberJack_BT : Can't find file for asset. /Script/GOAPFramework
+[2019.01.05-14.53.34:093][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:093][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/LumberJack_BT.uasset.
+[2019.01.05-14.53.34:094][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:094][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/LumberJack_BT.uasset.
+[2019.01.05-14.53.34:094][  0]LogLinker: Warning: Can't find file '/Game/Characters/AI/BTTasks/LaunchProjectile'
+[2019.01.05-14.53.34:095][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/AI/BTTasks/LaunchProjectile' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/LumberJack_BT.uasset.
+[2019.01.05-14.53.34:095][  0]LogLinker: Warning: Can't find file '/Game/Characters/AI/Enemys/LumberJack/LamberJack_BB'
+[2019.01.05-14.53.34:095][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/AI/Enemys/LumberJack/LamberJack_BB' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/LumberJack_BT.uasset.
+[2019.01.05-14.53.34:096][  0]LogLinker: Warning: Can't find file '/Game/Jerenibba/Animations/Attack02_Fire'
+[2019.01.05-14.53.34:096][  0]LogLinker: Warning: Can't find file for asset '/Game/Jerenibba/Animations/Attack02_Fire' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/LumberJack_BT.uasset.
+[2019.01.05-14.53.34:096][  0]LogLinker: Warning: Can't find file '/Game/Jerenibba/Animations/ThrowSpell_new'
+[2019.01.05-14.53.34:096][  0]LogLinker: Warning: Can't find file for asset '/Game/Jerenibba/Animations/ThrowSpell_new' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/LumberJack_BT.uasset.
+[2019.01.05-14.53.34:096][  0]LogLinker: Warning: Can't find file '/Game/Jerenibba/Generic/Attack'
+[2019.01.05-14.53.34:096][  0]LogLinker: Warning: Can't find file for asset '/Game/Jerenibba/Generic/Attack' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/LumberJack_BT.uasset.
+[2019.01.05-14.53.34:097][  0]LogLinker: Warning: Can't find file '/Game/Projectiles/SparkSphere'
+[2019.01.05-14.53.34:097][  0]LogLinker: Warning: Can't find file for asset '/Game/Projectiles/SparkSphere' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/LumberJack_BT.uasset.
+[2019.01.05-14.53.34:097][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:097][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading ../../../../../../Users/garren/Documents/Unreal Projects/goap_framework/Content/AI/Demo/LumberJack_BT.uasset.
+[2019.01.05-14.53.34:097][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:098][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.53.34:098][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:098][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.53.34:102][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:102][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.53.34:103][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:103][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.53.34:103][  0]LogLinker: Warning: Can't find file '/Game/Characters/AI/BTTasks/LaunchProjectile'
+[2019.01.05-14.53.34:103][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/AI/BTTasks/LaunchProjectile' while loading NULL.
+[2019.01.05-14.53.34:103][  0]LogLinker: Warning: Can't find file '/Game/Characters/AI/BTTasks/LaunchProjectile'
+[2019.01.05-14.53.34:103][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/AI/BTTasks/LaunchProjectile' while loading NULL.
+[2019.01.05-14.53.34:103][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:103][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.53.34:104][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:104][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.53.34:104][  0]LogLinker: Warning: Can't find file '/Game/Characters/AI/Enemys/LumberJack/LamberJack_BB'
+[2019.01.05-14.53.34:105][  0]LoadErrors: Failed to load /Game/Characters/AI/Enemys/LumberJack/LamberJack_BB.LamberJack_BB Referenced by LumberJack_BT
+[2019.01.05-14.53.34:105][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/AI/Enemys/LumberJack/LamberJack_BB' while loading NULL.
+[2019.01.05-14.53.34:106][  0]LogLinker: Warning: Can't find file '/Game/Characters/AI/Enemys/LumberJack/LamberJack_BB'
+[2019.01.05-14.53.34:106][  0]LoadErrors: Failed to load /Game/Characters/AI/Enemys/LumberJack/LamberJack_BB.LamberJack_BB Referenced by BehaviorTreeGraphNode_Root_0
+[2019.01.05-14.53.34:106][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/AI/Enemys/LumberJack/LamberJack_BB' while loading NULL.
+[2019.01.05-14.53.34:106][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:106][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.53.34:107][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:107][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.53.34:107][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:107][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.53.34:107][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:107][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.53.34:107][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:107][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.53.34:108][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:108][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.53.34:108][  0]LogLinker: Warning: Can't find file '/Game/Characters/AI/BTTasks/LaunchProjectile'
+[2019.01.05-14.53.34:108][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/AI/BTTasks/LaunchProjectile' while loading NULL.
+[2019.01.05-14.53.34:108][  0]LogLinker: Warning: Can't find file '/Game/Characters/AI/BTTasks/LaunchProjectile'
+[2019.01.05-14.53.34:109][  0]LoadErrors: Failed to load /Game/Characters/AI/BTTasks/LaunchProjectile.LaunchProjectile_C Referenced by BehaviorTreeGraphNode_Task_66
+[2019.01.05-14.53.34:109][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/AI/BTTasks/LaunchProjectile' while loading NULL.
+[2019.01.05-14.53.34:109][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:109][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.53.34:109][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:109][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.53.34:110][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:110][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.53.34:110][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:110][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.53.34:110][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:110][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.53.34:110][  0]LogLinker: Warning: Can't find file '/Script/GOAPFramework'
+[2019.01.05-14.53.34:111][  0]LogLinker: Warning: Can't find file for asset '/Script/GOAPFramework' while loading NULL.
+[2019.01.05-14.53.34:111][  0]LogLinker: Warning: Can't find file '/Game/Characters/AI/BTTasks/LaunchProjectile'
+[2019.01.05-14.53.34:111][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/AI/BTTasks/LaunchProjectile' while loading NULL.
+[2019.01.05-14.53.34:111][  0]LogLinker: Warning: Can't find file '/Game/Characters/AI/BTTasks/LaunchProjectile'
+[2019.01.05-14.53.34:111][  0]LoadErrors: Failed to load /Game/Characters/AI/BTTasks/LaunchProjectile.LaunchProjectile_C Referenced by BTComposite_SimpleParallel_0
+[2019.01.05-14.53.34:111][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/AI/BTTasks/LaunchProjectile' while loading NULL.
+[2019.01.05-14.53.34:112][  0]LogLinker: Warning: Can't find file '/Game/Jerenibba/Animations/Attack02_Fire'
+[2019.01.05-14.53.34:112][  0]LoadErrors: Failed to load /Game/Jerenibba/Animations/Attack02_Fire.Attack02_Fire Referenced by BTTask_PlayAnimation_2
+[2019.01.05-14.53.34:112][  0]LogLinker: Warning: Can't find file for asset '/Game/Jerenibba/Animations/Attack02_Fire' while loading NULL.
+[2019.01.05-14.53.34:112][  0]LogLinker: Warning: Can't find file '/Game/Jerenibba/Generic/Attack'
+[2019.01.05-14.53.34:113][  0]LoadErrors: Failed to load /Game/Jerenibba/Generic/Attack.Attack Referenced by BTTask_PlayAnimation_3
+[2019.01.05-14.53.34:113][  0]LogLinker: Warning: Can't find file for asset '/Game/Jerenibba/Generic/Attack' while loading NULL.
+[2019.01.05-14.53.34:113][  0]LogLinker: Warning: Can't find file '/Game/Jerenibba/Animations/ThrowSpell_new'
+[2019.01.05-14.53.34:113][  0]LoadErrors: Failed to load /Game/Jerenibba/Animations/ThrowSpell_new.ThrowSpell_new Referenced by BTTask_PlayAnimation_4
+[2019.01.05-14.53.34:113][  0]LogLinker: Warning: Can't find file for asset '/Game/Jerenibba/Animations/ThrowSpell_new' while loading NULL.
+[2019.01.05-14.53.34:170][  0]LogAIGraph: Error: RunPlanner class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/LumberJack_BT.LumberJack_BT:Behavior Tree.BehaviorTreeGraphNode_Task_30
+[2019.01.05-14.53.34:170][  0]LogAIGraph: Error: CheckGoal class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/LumberJack_BT.LumberJack_BT:Behavior Tree.BehaviorTreeGraphNode_Task_16
+[2019.01.05-14.53.34:170][  0]LogAIGraph: Error: AdjustUtilities class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/LumberJack_BT.LumberJack_BT:Behavior Tree.BehaviorTreeGraphNode_Task_17
+[2019.01.05-14.53.34:170][  0]LogAIGraph: Error: LaunchFireBall class missing. Referenced by BehaviorTreeGraphNode_Task /Game/AI/Demo/LumberJack_BT.LumberJack_BT:Behavior Tree.BehaviorTreeGraphNode_Task_66
+[2019.01.05-14.53.34:170][  0]LogLinker: Warning: Can't find file '/Game/Characters/AI/Enemys/LivingRock/Ancient/LaunchFireBall'
