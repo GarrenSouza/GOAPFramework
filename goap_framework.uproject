@@ -16,7 +16,7 @@
 	"Plugins": [
 		{
 			"Name": "BTUtilityPlugin",
-			"Enabled": true
+			"Enabled": false
 		}
 	]
 }
