@@ -1,7 +1,7 @@
 {
-	"BuildId": "3709383",
+	"BuildId": "4212847",
 	"Modules": 
 	{
-		"goap_framework": "UE4Editor-goap_framework.dll"
+		"GOAPFramework": "UE4Editor-GOAPFramework.dll"
 	}
 }
