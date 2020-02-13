@@ -22,7 +22,7 @@ You'll notice that the VS will be all over the place parsing tens of thousands o
 The core source files are under the very suggestive "Core" folder, just for the record, be very cautious about what you do down there. 
 
 ```
-## Using <project_name>
+## Using GOAPFramework
 
 To use the features of the framework, at the actual level of development, You need to follow some rules:
 
