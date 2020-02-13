@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BTUtilityPlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\garren\Documents\git\GOAPFramework\Intermediate\Build\Win64\GOAPFrameworkEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\garren\Documents\git\GOAPFramework\Plugins\BTUtilityPlugin\Intermediate\Build\Win64\UE4Editor\Development\BTUtilityPlugin\Module.BTUtilityPlugin.cpp.obj"
+"C:\Users\garren\Documents\git\GOAPFramework\Plugins\BTUtilityPlugin\Intermediate\Build\Win64\UE4Editor\Development\BTUtilityPlugin\Module.BTUtilityPlugin.gen.cpp.obj"
+"C:\Users\garren\Documents\git\GOAPFramework\Plugins\BTUtilityPlugin\Intermediate\Build\Win64\UE4Editor\Development\BTUtilityPlugin\PCLaunch.rc.res"
+/OUT:"C:\Users\garren\Documents\git\GOAPFramework\Plugins\BTUtilityPlugin\Intermediate\Build\Win64\UE4Editor\Development\BTUtilityPlugin\UE4Editor-BTUtilityPlugin.lib"
