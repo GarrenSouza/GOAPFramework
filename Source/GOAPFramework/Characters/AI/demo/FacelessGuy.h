@@ -21,6 +21,6 @@ public:
 	void InitializeActionsCosts() override;		
 	void CalculateActionsCosts() override;
 	void CheckGoal() override;
-	
+	void InitializeEntity() override;
 	
 };

@@ -31,7 +31,7 @@ AGOAPController::AGOAPController(const class FObjectInitializer& ObjectInitializ
 	GOAPPlanner.goap_actionplanner_clear(&ActionPlanner);
 	GOAPPlanner.goap_worldstate_clear(&ActualWorldState);
 	GOAPPlanner.goap_worldstate_clear(&DesiredWorldState);
-	bWantsPlayerState = true;										//Personagem recebe um ID
+	bWantsPlayerState = true;										//The character gets an ID
 }
 
 void AGOAPController::DestroyControlledCharacter()
@@ -48,6 +48,8 @@ void AGOAPController::Possess(APawn* InPawn)
 
 	if (GOAPCharacter)
 	{
+		GOAPCharacter->InitializeEntity();
+
 		if (GOAPCharacter->BehaviorTree->BlackboardAsset)
 		{
 			BlackboardComp->InitializeBlackboard(*GOAPCharacter->BehaviorTree->BlackboardAsset);
@@ -56,6 +58,7 @@ void AGOAPController::Possess(APawn* InPawn)
 			actual_goal_map_key = &(GOAPCharacter->actual_goal_map_key);
 			last_goal_map_key = &(GOAPCharacter->last_goal_map_key);
 			Goals = &(GOAPCharacter->Goals);
+			Logger = &(GOAPCharacter->Logger);
 
 			BehaviorComp->StartTree(*GOAPCharacter->BehaviorTree);
 			GOAPCharacter->InitializeActions();
@@ -72,49 +75,57 @@ void AGOAPController::UnPossess()
 {
 	if (BehaviorComp && BehaviorComp->IsActive())
 	{
-		BehaviorComp->StopLogic(TEXT("Esta instancia de GOAPCharacter nao possui mais um controlador"));
+		BehaviorComp->StopLogic(TEXT("This Character is not attached to a GOAPController anymore!"));
 		BehaviorComp->StopTree();
 	}
 }
 
 bool AGOAPController::GetNewPlan()
 {
-	char desc[4096];													//Buffer de descricao usado para DEBUG
-	const char* Plan[16];												//Vetor que conter o plano
-	int32 PlanSize = 16;												//Tamanho maximo do plano
-	GOAP::worldstate_t States[16];										//Quantidade de estados (maxima) para que se chegue ao estado de mundo desejado
+	//Logger->send_to_Output_logger(FString(TEXT("Working on a new plan!")), log_categories::WARNING);
+
+	Logger->send_to_GamePreviewLogger(FString(TEXT("Working on a new plan!")), log_categories::WARNING, 3.0f);
+
+	char desc[4096];													//Description buffer, for debug purposes
+	const char* Plan[16];												//Plan container
+	int32 PlanSize = 16;												//Max size of a plan
+	GOAP::worldstate_t States[16];										//Container for the stages of the plan
 
 	BlackboardComp->SetValueAsName(FName(TEXT(CURRENTGOAL_BB_KEY)), *actual_goal_map_key);
 	
-	GOAPPlanner.goap_description(&ActionPlanner, desc, sizeof(desc));	//Usado para debug
-	AGOAPController::GetActualWorldstate(&ActualWorldState);			//Atualiza visao de mundo
-	AGOAPController::SetDesiredWorldstate(&DesiredWorldState);			//Atualiza Objetivo
+	GOAPPlanner.goap_description(&ActionPlanner, desc, sizeof(desc));	
+	AGOAPController::GetActualWorldstate(&ActualWorldState);			//Update world perspective of the planner
+	AGOAPController::SetDesiredWorldstate(&DesiredWorldState);			//Update the goal
 	int32 PlanCost = AStarPlanner.astar_plan(&ActionPlanner, ActualWorldState, DesiredWorldState, Plan, States, &PlanSize);													//Custo do plano
 
-	FName BBTaskKeyFailed = FName(TEXT(PLANSTATECHANGED_BBKEY));
-	AGOAPController::SetAtomState(&BBTaskKeyFailed, false);				//Atua sobre o laco de repeticao das aes dentro do componente "BehaviorComp"
+	FName BBPlanStateChanged = FName(TEXT(PLANSTATECHANGED_BBKEY));
+	AGOAPController::SetAtomState(&BBPlanStateChanged, false);				//Control flag within the Blackboard Component
 
 	if (PlanCost != -1)
 	{
-		GOAPPlanner.goap_worldstate_description(&ActionPlanner, &ActualWorldState, desc, sizeof(desc));	//Usado para debug
+		GOAPPlanner.goap_worldstate_description(&ActionPlanner, &ActualWorldState, desc, sizeof(desc));	//for debug
 		AGOAPController::ResetActionValues();
-		GOAPPlanner.goap_worldstate_description(&ActionPlanner, &ActualWorldState, desc, sizeof(desc));	//Usado para debug
-		int ActionUtility = PlanSize;											//PlanSize contm a quantidade de aes que o plano preparado possui
+		GOAPPlanner.goap_worldstate_description(&ActionPlanner, &ActualWorldState, desc, sizeof(desc));	//for debug
+		int ActionUtility = PlanSize;											//Actions counter of the actual plan
 		AGOAPController::ResetActionValues();
 		for (int32 i = 0; ((i < PlanSize) && (i < 16)); i++)
 		{
-			FName ActionName = Plan[i];							//Prximo estgio do plano
-			if (AGOAPController::GetActionValue(&ActionName) == 0)	//==0, evita que a repetio de uma acao dentro do plano sobreescreva uma chamada anterior 
+			FName ActionName = Plan[i];							//Next step of the plan
+			if (AGOAPController::GetActionValue(&ActionName) == 0)	// Avoid the superposition of utility values of a action called twice (or more) during  a plan
 			{
-				AGOAPController::SetActionValue(&ActionName, ActionUtility--);	//Cada acao ao recebe o seu ndice de utilidade
+				AGOAPController::SetActionValue(&ActionName, ActionUtility--);	//Every Action receive an utility value
 				continue;
 			}
 			break;
 		}
 		FName BBPlanCostKey = FName(TEXT(PLANCOST_BBKEY));
-		AGOAPController::SetActualPlanCost(&BBPlanCostKey, 100);
+		AGOAPController::SetActualPlanCost(&BBPlanCostKey, PlanCost);
+		//Logger->send_to_Output_logger(FString(TEXT("Done! Gota new plan!")), log_categories::WARNING);
+		Logger->send_to_GamePreviewLogger(FString(TEXT("Done! Got a new plan!")), log_categories::WARNING, 3.0f);
 		return true;
 	}
+	//Logger->send_to_Output_logger(FString(TEXT("Oh damn it! I couldn't come up with a solution!")), log_categories::WARNING);
+	Logger->send_to_GamePreviewLogger(FString(TEXT("Oh damn it! I couldn't come up with a solution!")), log_categories::WARNING, 3.0f);
 	return false;
 }
 
@@ -158,7 +169,7 @@ void AGOAPController::ResetActionValue(const FName* ActionName)
 bool AGOAPController::ResetLastSuccessfulAction()
 {
 	int32 max_utility = 0;
-	FName  HighestValueAction = FName(TEXT("Nothing"));
+	FName  HighestValueAction = FName(TEXT(" "));
 
 	for (auto const &Action : *ActionNames) {
 		if (AGOAPController::GetActionValue(&(Action.Key)) >= max_utility)
@@ -196,12 +207,7 @@ void AGOAPController::SetActionPst(const char* ActionName, const char* RelatedKe
 }
 
 void AGOAPController::GetActualWorldstate(GOAP::worldstate_t * ActualWorldState)
-{
-	/*for (auto const &WorldAtom : *ImportantAtoms) {
-		bool AtomValue = BlackboardComp->GetValueAsBool(WorldAtom.Key);
-		AGOAPController::SetActualWorldStateAtomValue(&WorldAtom.Value, AtomValue);
-	}*/
-	//Realizar a coleta de informacoes uteis ao controlador, inserindo-as na estrutura apontada pelo parametro "ActualWorldState"
+{	
 }
 
 void AGOAPController::SetActualWorldStateAtomValue(const char* AtomName, bool AtomValue)
@@ -216,12 +222,6 @@ void AGOAPController::SetDesiredWorldStateAtomValue(const char* AtomName, bool A
 
 void AGOAPController::SetDesiredWorldstate(GOAP::worldstate_t * goal_worldstate)
 {
-	//TArray<TTuple<FName, bool>>* actual_goal;
-	//actual_goal = Goals->Find(*actual_goal_map_key);
-	/*actual_goal = Goals->Find("MAIN");
-	for (auto const &WorldAtom : *actual_goal) {
-		SetDesiredWorldStateAtomValue(ImportantAtoms->Find(WorldAtom.Key), WorldAtom.Value);
-	}*/
 }
 
 bool AGOAPController::CheckGoal()

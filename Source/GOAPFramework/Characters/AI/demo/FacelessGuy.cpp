@@ -2,9 +2,16 @@
 
 #include "FacelessGuy.h"
 #include "Core/GOAPController.h"
+#include "Styx/StyxLog.h"
+
+void AFacelessGuy::InitializeEntity() {
+	Logger.setMyName(GetNameSafe(this));
+}
 
 void AFacelessGuy::InitializeImportantAtoms()
 {
+	//Logger.send_to_Output_logger(FString(TEXT("Initializing relevant atoms!")), log_categories::DISPLAY);
+	
 	ImportantAtoms.Add(FName(TEXT("LowHealth")), *("LowHealth"));
 	ImportantAtoms.Add(FName(TEXT("EnemyAlive")), *("EnemyAlive"));
 	ImportantAtoms.Add(FName(TEXT("MemoryLevel1")), *("MemoryLevel1"));
@@ -21,7 +28,9 @@ void AFacelessGuy::InitializeGoals()
 	AGOAPController* GOAPController = Cast<AGOAPController>(GetController());
 	if (GOAPController)
 	{
-		//Description of the actua worldstate
+		Logger.send_to_Output_logger(FString(TEXT("Initializing goals!")), log_categories::DISPLAY);
+
+		//Description of the actual worldstate
 		GOAPController->SetActualWorldStateAtomValue("LowHealth", true);
 		GOAPController->SetActualWorldStateAtomValue("EnemyAlive", true);
 		GOAPController->SetActualWorldStateAtomValue("MemoryLevel1", false);
@@ -64,6 +73,8 @@ void AFacelessGuy::InitializeActions()
 	AGOAPController* GOAPController = Cast<AGOAPController>(GetController());
 	if (GOAPController)
 	{
+		//Logger.send_to_Output_logger(FString(TEXT("Initializing actions!")), log_categories::DISPLAY);
+
 		//Action Set
 		ActionNames.Add(FName(TEXT("DoubleSwipe")), *("DoubleSwipe"));
 		ActionNames.Add(FName(TEXT("PoisonBall")), *("PoisonBall"));

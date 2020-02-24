@@ -7,18 +7,23 @@
 #include "BehaviorTree/BehaviorTreeComponent.h"
 #include "BehaviorTree/BlackboardComponent.h"
 #include "GOAP.h"
+#include "Styx/StyxLog.h"
 #include "GOAPCharacter.generated.h"
 
 UCLASS()
 class GOAPFRAMEWORK_API AGOAPCharacter : public ACharacter
 {
 	GENERATED_BODY()
+
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 public:	
 	AGOAPCharacter(const class FObjectInitializer& ObjectInitializer);			//class constructor
+
+	StyxLog Logger;
 
 	UPROPERTY(EditDefaultsOnly, Category = "AI")								
 		class UBehaviorTree* BehaviorTree;
@@ -36,6 +41,7 @@ public:
 
 	//virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	virtual void InitializeEntity() PURE_VIRTUAL(AGOAPCharacter::InitializeEntity, return;);						//Should be ovveride in child classes of GOAPCharacter
 	virtual void InitializeActions() PURE_VIRTUAL(AGOAPCharacter::InitializeActions, return;);						//Should be override in child classes of GOAPCharacter
 	virtual void InitializeImportantAtoms() PURE_VIRTUAL(AGOAPCharacter::InitializeImportantAtoms, return;);		//Should be override in child classes of GOAPCharacter
 	virtual void InitializeGoals() PURE_VIRTUAL(AGOAPCharacter::InitializeGoals, return;);							//Should be override in child classes of GOAPCharacter

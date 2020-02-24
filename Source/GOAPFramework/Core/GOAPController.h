@@ -6,6 +6,7 @@
 #include "CoreMinimal.h"
 #include "AStar.h"
 #include "BehaviorTree/BehaviorTree.h"
+#include "Styx/StyxLog.h"
 #include "GOAPController.generated.h"
 
 /**
@@ -35,6 +36,9 @@ public:
 	//Action articulator
 	UBehaviorTreeComponent * BehaviorComp;	//The component where the actions of the character will be attached
 	UBlackboardComponent* BlackboardComp;	//The component where the atoms of the character will be stored
+
+	//Logging
+	StyxLog* Logger;
 
 	//Planning
 	bool GetNewPlan();											
