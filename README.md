@@ -29,7 +29,7 @@ To use the features of the framework, at the actual level of development, You ne
 ```
 Character definition
 AIController link
-Behavior Trees & Blackboards
+Behavior Trees & Blackboards operations and connections must be bound
 ```
 
 Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
