@@ -30,6 +30,7 @@ To use the features of the framework, at the actual level of development, You ne
 Character definition
 AIController link
 Behavior Trees & Blackboards
+StyxLog
 ```
 
 Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
