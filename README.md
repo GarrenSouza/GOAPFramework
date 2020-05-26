@@ -30,8 +30,7 @@ To use the features of the framework, at the actual level of development, You ne
 Character definition
 AIController link
 Behavior Trees & Blackboards operations and connections must be bound
-If you want a logger, use StyxLog (built to save time)
-```
+* If you want a logger, use StyxLog (built to save your time)
 
 Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
 
