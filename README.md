@@ -17,8 +17,8 @@ Windows:
 ```
 
 Right click the ".uproject" file under the project folder and select the option "Generate Visual Studio project files".
-Once the work is done (a minute or two) you can launch the ".sln" file (the one with the Vosual Studio logo).
-You'll notice that the VS will be all over the place parsing tens of thousands of files, everthing is fine, you can open the Unreal Editor while VS get the things done.
+Once the work is done (a minute or two) you can launch the ".sln" file (the one with the Visual Studio logo).
+You'll notice that the VS will be all over the place parsing tens of thousands of files, everything is fine, you can open the Unreal Editor while VS get the things done.
 The core source files are under the very suggestive "Core" folder, just for the record, be very cautious about what you do down there. 
 
 ```
@@ -31,8 +31,6 @@ Character definition
 AIController link
 Behavior Trees & Blackboards operations and connections must be bound
 * If you want a logger, use StyxLog (built to save your time)
-
-Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
 
 ## Contributing to GOAPFramework
 
