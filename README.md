@@ -1,6 +1,6 @@
 # GOAPFramework
 
-GOAPFramework is a experimental framework that allows developers to experience some features of the GOAP way to build AI under the Unreal Engine Editor.
+GOAPFramework is an experimental framework that allows developers to experience some features of the GOAP way to build AI under the Unreal Engine Editor.
 
 ## Prerequisites
 
