@@ -26,7 +26,7 @@ The core source files are under the very suggestive "Core" folder, just for the 
 
 To use the features of the framework, at the actual level of development, You need to follow some rules:
 
-```
+
 Character definition
 AIController link
 Behavior Trees & Blackboards operations and connections must be bound
