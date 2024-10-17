@@ -5,27 +5,26 @@ GOAPFramework is an experimental framework that allows developers to experience 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
-* You have installed the 4.20 version of Unreal Engine
-* You have some experience with C++
-* You have read the documentation website that walks you through some really important aspects about the project
+* You have installed a version of Unreal Engine that is compatible with projects in Unreal 4.20 (perhaps in the future the project will be upgraded to Unreal 5)
+* You have some experience with C++ (pointerrsssss boiiiii, and lots of macros too, so beware)
+* You need to have a working install of Visual Studio 2017 at least (it works with VS 2022)
+* You have read the [documentation website](https://sites.google.com/view/goap-framework/goap) that walks you through some aspects about how the planner was integrated into the Unreal Engine API (even if you know GOAP inside and out)
+* You have some familiarity with the Unreal Engine API (Controllers, Characters, Pawns, Navigation, Life-Cycle, etc)
 
 ## Installing/Getting things ready to work
 
 Follow these steps:
 
 Windows:
-```
 
 Right click the ".uproject" file under the project folder and select the option "Generate Visual Studio project files".
 Once the work is done (a minute or two) you can launch the ".sln" file (the one with the Visual Studio logo).
 You'll notice that the VS will be all over the place parsing tens of thousands of files, everything is fine, you can open the Unreal Editor while VS get the things done.
 The core source files are under the very suggestive "Core" folder, just for the record, be very cautious about what you do down there. 
 
-```
 ## Using GOAPFramework
 
 To use the features of the framework, at the actual level of development, You need to follow some rules:
-
 
 Character definition
 AIController link
@@ -38,7 +37,7 @@ I'll make a short guide about contributions, but for now see the GitHub document
 
 ## Contact
 
-If you want to contact me you can reach me at <garrenlus.souza@inf.ufrgs.br>.
+If you want to contact me you can reach me at <contato.garren@gmail.com>.
 
 ## License
 
