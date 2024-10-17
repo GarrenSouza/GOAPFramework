@@ -8,21 +8,7 @@
 #include "BehaviorTree/BehaviorTreeComponent.h"
 #include "BehaviorTree/BlackboardComponent.h"
 
-#ifndef DEFAULT_ACTION_VALUE
-#define DEFAULT_ACTION_VALUE 0
-#endif
 
-#ifndef PLANSTATECHANGED_BBKEY
-#define PLANSTATECHANGED_BBKEY "PlanStateChanged"
-#endif
-
-#ifndef PLANCOST_BBKEY 
-#define PLANCOST_BBKEY "ActualPlanCost"
-#endif
-
-#ifndef CURRENTGOAL_BB_KEY
-#define CURRENTGOAL_BB_KEY "CurrentGoal"
-#endif
 
 AGOAPController::AGOAPController(const class FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
@@ -84,7 +70,7 @@ bool AGOAPController::GetNewPlan()
 {
 	//Logger->send_to_Output_logger(FString(TEXT("Working on a new plan!")), log_categories::WARNING);
 
-	Logger->send_to_GamePreviewLogger(FString(TEXT("Working on a new plan!")), log_categories::WARNING, 3.0f);
+	Logger->send_to_GamePreviewLogger(FString(TEXT("Working on a new plan!")), log_categories::DISPLAY, 3.0f);
 
 	char desc[4096];													//Description buffer, for debug purposes
 	const char* Plan[16];												//Plan container

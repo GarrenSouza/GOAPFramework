@@ -28,7 +28,7 @@ void AFacelessGuy::InitializeGoals()
 	AGOAPController* GOAPController = Cast<AGOAPController>(GetController());
 	if (GOAPController)
 	{
-		Logger.send_to_Output_logger(FString(TEXT("Initializing goals!")), log_categories::DISPLAY);
+		Logger.send_to_Output_logger(FString(TEXT("Initializing the goals...")), log_categories::DISPLAY);
 
 		//Description of the actual worldstate
 		GOAPController->SetActualWorldStateAtomValue("LowHealth", true);
@@ -43,16 +43,16 @@ void AFacelessGuy::InitializeGoals()
 		//Description of the MAIN Goal
 		TArray<TTuple<FName, bool>> MainGoal = TArray<TTuple<FName, bool>>();
 		MainGoal.Emplace("LowHealth", false);
-		Goals.Add("MAIN", MainGoal);
+		Goals.Add("Stay_Alive", MainGoal);
 
 		//Description of a secondary goal (self preservation)
 		TArray<TTuple<FName, bool>> RestoreHealthGoal = TArray<TTuple<FName, bool>>();
-		RestoreHealthGoal.Emplace("HaveSafeSpot", true);
+		RestoreHealthGoal.Emplace("Stay_Safe", true);
 		Goals.Add("RestoreHealthGoal", RestoreHealthGoal);
 
 		GOAPController->SetDesiredWorldStateAtomValue("LowHealth", false);
 
-		last_goal_map_key = actual_goal_map_key = "MAIN";
+		last_goal_map_key = actual_goal_map_key = "Stay_Alive";
 		//Description of the desired worldstate
 	}
 }

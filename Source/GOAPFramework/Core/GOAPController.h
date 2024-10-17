@@ -9,6 +9,22 @@
 #include "Styx/StyxLog.h"
 #include "GOAPController.generated.h"
 
+#ifndef DEFAULT_ACTION_VALUE
+#define DEFAULT_ACTION_VALUE 0
+#endif
+
+#ifndef PLANSTATECHANGED_BBKEY
+#define PLANSTATECHANGED_BBKEY "PlanStateChanged"
+#endif
+
+#ifndef PLANCOST_BBKEY 
+#define PLANCOST_BBKEY "ActualPlanCost"
+#endif
+
+#ifndef CURRENTGOAL_BB_KEY
+#define CURRENTGOAL_BB_KEY "CurrentGoal"
+#endif
+
 /**
 * Main class of character control (AGOAPCharacter compatible only)
 */
